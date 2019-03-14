@@ -11,6 +11,7 @@ package laptopmethod;
  */
 class FactoryLaptop {
     public Laptop getLaptop(String modelo, String marca) {
+        //TODO implementar tratativa para cada marca e modelo diferente
         if (marca.equals("Apple")) {
             return new Notebook(modelo);
         }

@@ -12,4 +12,6 @@ package laptopmethod;
 public abstract class Laptop {
     public String modelo;
     public String marca;    
+    
+    //TODO criar separação por modelos e marcas
 }

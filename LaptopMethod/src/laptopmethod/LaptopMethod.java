@@ -19,6 +19,8 @@ public class LaptopMethod {
         String modelo = "Macbook";
         String marca = "Apple";
         
+        factory = new FactoryLaptop();
+        
         factory.getLaptop(modelo, marca);
     }
     

@@ -8,6 +8,7 @@ package laptopfactory.Sony;
 import laptopfactory.Interfaces.Notebook;
 import laptopfactory.Interfaces.Ultrabook;
 import laptopfactory.Interfaces.FabricaDeLaptop;
+import laptopfactory.Interfaces.Infinitybook;
 import laptopfactory.Sony.Vaio;
 import laptopfactory.Sony.VaioFit;
 
@@ -25,4 +26,9 @@ public class FabricaSony implements FabricaDeLaptop {
     public Ultrabook criarUltrabook(){
         return new Vaio();
     }    
+
+    @Override
+    public Infinitybook criarInfinitybook() {
+        return new VaioInfinity();
+    }
 }

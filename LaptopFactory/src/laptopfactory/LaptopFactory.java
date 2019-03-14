@@ -7,6 +7,7 @@ import laptopfactory.Interfaces.Notebook;
 import laptopfactory.Interfaces.Ultrabook;
 import laptopfactory.Interfaces.FabricaDeLaptop;
 import jdk.nashorn.internal.runtime.regexp.JoniRegExp;
+import laptopfactory.Interfaces.Infinitybook;
 
 /**
  *
@@ -21,26 +22,38 @@ public class LaptopFactory {
         FabricaDeLaptop fabrica = new FabricaApple();
         Notebook notebook = fabrica.criarNotebook();
         Ultrabook ultrabook = fabrica.criarUltrabook();
+        Infinitybook infinitybook = fabrica.criarInfinitybook();
+        
         notebook.exibirInfoNotebook();
         System.out.println();
         ultrabook.exibirInfoUltrabook();
-        System.out.println();        
+        System.out.println();
+        infinitybook.exibirInfoInfinitybook();
+        System.out.println();
         
         fabrica = new FabricaLenovo();
         notebook = fabrica.criarNotebook();
         ultrabook = fabrica.criarUltrabook();
+        infinitybook = fabrica.criarInfinitybook();
+        
         notebook.exibirInfoNotebook();
         System.out.println();
         ultrabook.exibirInfoUltrabook();
+        System.out.println();
+        infinitybook.exibirInfoInfinitybook();
         System.out.println();
         
         fabrica = new FabricaSony();
         notebook = fabrica.criarNotebook();
         ultrabook = fabrica.criarUltrabook();
+        infinitybook = fabrica.criarInfinitybook();
+        
         notebook.exibirInfoNotebook();
         System.out.println();
         ultrabook.exibirInfoUltrabook();
         System.out.println();        
+        infinitybook.exibirInfoInfinitybook();
+        System.out.println();
     }
     
 }

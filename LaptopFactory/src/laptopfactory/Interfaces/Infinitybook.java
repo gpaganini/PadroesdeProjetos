@@ -7,10 +7,8 @@ package laptopfactory.Interfaces;
 
 /**
  *
- * @author user
+ * @author Giovani Paganini <giovanipaganini@outlook.com>
  */
-public interface FabricaDeLaptop {
-    Notebook criarNotebook();
-    Ultrabook criarUltrabook();
-    Infinitybook criarInfinitybook();
+public interface Infinitybook {
+    void exibirInfoInfinitybook();
 }

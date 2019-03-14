@@ -10,6 +10,7 @@ import laptopfactory.Apple.MacbookAir;
 import laptopfactory.Interfaces.Notebook;
 import laptopfactory.Interfaces.Ultrabook;
 import laptopfactory.Interfaces.FabricaDeLaptop;
+import laptopfactory.Interfaces.Infinitybook;
 
 /**
  *
@@ -24,5 +25,10 @@ public class FabricaApple implements FabricaDeLaptop {
     @Override
     public Ultrabook criarUltrabook() {
         return new MacbookPro();
-    }   
+    }    
+
+    @Override
+    public Infinitybook criarInfinitybook() {
+        return new MacMini();
+    }
 }

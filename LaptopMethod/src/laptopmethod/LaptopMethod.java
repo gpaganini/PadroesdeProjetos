@@ -5,23 +5,26 @@
  */
 package laptopmethod;
 
+import laptopmethod.Apple.FabricaApple;
+import laptopmethod.Interfaces.FabricaDeLaptop;
+import laptopmethod.Interfaces.Laptop;
+
 /**
  *
  * @author Giovani Paganini <giovanipaganini@outlook.com>
  */
 public class LaptopMethod {
-
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        FactoryLaptop factory = new FactoryLaptop();
-        String modelo = "Macbook";
-        String marca = "Apple";
+        FabricaDeLaptop factory = new FabricaApple();
+        Laptop laptop = factory.criarLaptop();
+        laptop.exibirInfo();
+        System.out.println();
         
-        factory = new FactoryLaptop();
+        //fabrica = new FabricaDell
         
-        factory.getLaptop(modelo, marca);
     }
     
 }

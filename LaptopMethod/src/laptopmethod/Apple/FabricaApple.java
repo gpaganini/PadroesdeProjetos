@@ -10,7 +10,7 @@ import laptopmethod.Interfaces.Laptop;
 
 /**
  *
- * @author giovani.paganini
+* @author Giovani Paganini <giovanipaganini@outlook.com>
  */
 public class FabricaApple implements FabricaDeLaptop {
 

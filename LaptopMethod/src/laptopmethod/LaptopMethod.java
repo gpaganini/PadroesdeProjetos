@@ -27,8 +27,7 @@ public class LaptopMethod {
         factory = new FabricaDell();
         laptop = factory.criarLaptop();
         laptop.exibirInfo();
-        System.out.println();
-        
+        System.out.println();        
     }
     
 }

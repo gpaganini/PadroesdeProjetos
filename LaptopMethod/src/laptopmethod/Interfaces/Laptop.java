@@ -7,7 +7,7 @@ package laptopmethod.Interfaces;
 
 /**
  *
- * @author giovani.paganini
+* @author Giovani Paganini <giovanipaganini@outlook.com>
  */
 public interface Laptop {
     void exibirInfo();

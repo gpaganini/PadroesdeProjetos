@@ -6,6 +6,7 @@
 package laptopmethod;
 
 import laptopmethod.Apple.FabricaApple;
+import laptopmethod.Dell.FabricaDell;
 import laptopmethod.Interfaces.FabricaDeLaptop;
 import laptopmethod.Interfaces.Laptop;
 
@@ -23,7 +24,10 @@ public class LaptopMethod {
         laptop.exibirInfo();
         System.out.println();
         
-        //fabrica = new FabricaDell
+        factory = new FabricaDell();
+        laptop = factory.criarLaptop();
+        laptop.exibirInfo();
+        System.out.println();
         
     }
     

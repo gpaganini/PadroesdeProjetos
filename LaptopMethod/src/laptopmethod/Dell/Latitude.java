@@ -3,19 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package laptopmethod.Apple;
+package laptopmethod.Dell;
 
-import laptopmethod.Interfaces.FabricaDeLaptop;
 import laptopmethod.Interfaces.Laptop;
 
 /**
  *
  * @author giovani.paganini
  */
-public class FabricaApple implements FabricaDeLaptop {
-
+public class Latitude implements Laptop {
     @Override
-    public Laptop criarLaptop() {
-        return new MacbookPro();
+    public void exibirInfo() {
+        System.out.println("Modelo: Latitude\nFábrica: Dell");
     }
 }

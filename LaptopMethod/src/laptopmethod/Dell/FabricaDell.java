@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package laptopmethod.Apple;
+package laptopmethod.Dell;
 
 import laptopmethod.Interfaces.FabricaDeLaptop;
 import laptopmethod.Interfaces.Laptop;
@@ -12,10 +12,11 @@ import laptopmethod.Interfaces.Laptop;
  *
  * @author giovani.paganini
  */
-public class FabricaApple implements FabricaDeLaptop {
+public class FabricaDell implements FabricaDeLaptop{
 
     @Override
     public Laptop criarLaptop() {
-        return new MacbookPro();
+        return new Latitude();
     }
+    
 }

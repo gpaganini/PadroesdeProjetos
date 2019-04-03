@@ -29,6 +29,8 @@ public class QueDeleite {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
+        ///BISCOITERIA
         BiscoiteriaFactory biscoito = new BiscoitosVovo();
         Doce doce = biscoito.biscoitoDoce();
         Salgado salgado = biscoito.biscoidoSalgado();             
@@ -38,6 +40,8 @@ public class QueDeleite {
         salgado.exibirInfoBiscoitoSalgado();
         System.out.println();
         
+        
+        ///BOLOTERIA
         BoloteriaFactory boloteria = new BoloCasamento();
         Bolo bolo = boloteria.criarBolo();
         bolo.exibirInfo();
@@ -48,6 +52,8 @@ public class QueDeleite {
         bolo.exibirInfo();
         System.out.println();
         
+        
+        ///DOCETERIA
         Suspiro suspiroPrototipo = new Suspiro(); 
         DoceteriaPrototype suspiro = suspiroPrototipo.clonar();
         suspiro.setValorCompra(1.99);

@@ -13,7 +13,7 @@ public class BoloFesta implements BoloteriaFactory {
 
     @Override
     public Bolo criarBolo() {
-        return new Festa();
+        return new Chocolate();
     }
     
 }

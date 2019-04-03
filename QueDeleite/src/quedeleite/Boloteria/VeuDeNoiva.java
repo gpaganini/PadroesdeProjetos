@@ -9,11 +9,11 @@ package quedeleite.Boloteria;
  *
  * @author Giovani Paganini <giovanipaganini@outlook.com>
  */
-public class Casamento implements Bolo{
+public class VeuDeNoiva implements Bolo{
 
     @Override
     public void exibirInfo() {
-        System.out.println("Bolo de Casamento\nFabrica de Bolos QueDeleite");
+        System.out.println("Bolo Veu de Noiva\nBolo de Casamento sabor Veu de Noiva");
     }
     
 }

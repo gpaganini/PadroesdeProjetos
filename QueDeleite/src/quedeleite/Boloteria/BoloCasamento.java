@@ -13,7 +13,7 @@ public class BoloCasamento implements BoloteriaFactory {
 
     @Override
     public Bolo criarBolo() {
-        return new Casamento();
+        return new VeuDeNoiva();
     }
     
 }

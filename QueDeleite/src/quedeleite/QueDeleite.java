@@ -6,7 +6,7 @@
 package quedeleite;
 
 import quedeleite.Biscoiteria.BiscoiteriaFactory;
-import quedeleite.Biscoiteria.BiscoitoFactory;
+import quedeleite.Biscoiteria.BiscoitosVovo;
 import quedeleite.Biscoiteria.Doce;
 import quedeleite.Biscoiteria.Salgado;
 import quedeleite.Boloteria.Bolo;
@@ -29,7 +29,7 @@ public class QueDeleite {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        BiscoiteriaFactory biscoito = new BiscoitoFactory();
+        BiscoiteriaFactory biscoito = new BiscoitosVovo();
         Doce doce = biscoito.biscoitoDoce();
         Salgado salgado = biscoito.biscoidoSalgado();             
         

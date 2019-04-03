@@ -13,7 +13,7 @@ public class BiscoitoPolvilho implements Salgado{
 
     @Override
     public void exibirInfoBiscoitoSalgado() {
-        System.out.println("Biscoito Salgado de Polvilho\nFabrica de Biscoitos QueDeleite");
+        System.out.println("Biscoito Salgado de Polvilho\nBiscoitos da Vovo");
     }
     
 }

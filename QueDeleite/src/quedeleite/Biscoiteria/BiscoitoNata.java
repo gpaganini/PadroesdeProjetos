@@ -13,7 +13,7 @@ public class BiscoitoNata implements Doce {
 
     @Override
     public void exibirInfoBiscoitoDoce() {
-    System.out.println("Biscoito Doce de Nata\nFabrica de Biscoitos QueDeleite");
+    System.out.println("Biscoito Doce de Nata\nBiscoitos da Vovo");
     }
 
     

@@ -10,7 +10,7 @@ package quedeleite.Biscoiteria;
  *
  * @author Giovani Paganini <giovanipaganini@outlook.com>
  */
-public class BiscoitoFactory implements BiscoiteriaFactory {
+public class BiscoitosVovo implements BiscoiteriaFactory {
 
     @Override
     public Salgado biscoidoSalgado() {

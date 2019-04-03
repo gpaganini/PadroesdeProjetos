@@ -9,11 +9,11 @@ package quedeleite.Boloteria;
  *
  * @author Giovani Paganini <giovanipaganini@outlook.com>
  */
-public class Festa implements Bolo{
+public class Chocolate implements Bolo{
 
     @Override
     public void exibirInfo() {
-        System.out.println("Bolo de Festa\nFabrica de Bolos QueDeleite");
+        System.out.println("Bolo de Chocolate\nBolo de Festa sabor Chocolate");
     }
     
 }

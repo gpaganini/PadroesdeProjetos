@@ -1,5 +1,6 @@
 package quedeleite;
 
+import java.util.Scanner;
 import quedeleite.Biscoiteria.BiscoiteriaFactory;
 import quedeleite.Biscoiteria.BiscoitosVovo;
 import quedeleite.Biscoiteria.Doce;
@@ -25,42 +26,71 @@ public class QueDeleite {
      */
     public static void main(String[] args) {
         
-        ///BISCOITERIA
-        BiscoiteriaFactory biscoito = new BiscoitosVovo();
-        Doce doce = biscoito.biscoitoDoce();
-        Salgado salgado = biscoito.biscoidoSalgado();             
+        Scanner scanner = new Scanner(System.in);
         
-        doce.exibirInfoBiscoitoDoce();
-        System.out.println();
-        salgado.exibirInfoBiscoitoSalgado();
-        System.out.println();
+        System.out.println("Bem-vindo a QueDeleite, sua loja de guloseimas!!!");
+        System.out.println("Escolha uma opção: [1]Biscoitos [2]Bolos [3]Doces");   
+        int escolha = scanner.nextInt();
         
+        if (escolha == 1) {
+            Scanner bisq = new Scanner(System.in);
+            System.out.println("Escolha uma opção de biscoito: [1]Polvilho [2]Nata");
+            int bs = bisq.nextInt();            
+            BiscoiteriaFactory biscoito = new BiscoitosVovo();
+            Doce doce = biscoito.biscoitoDoce();
+            Salgado salgado = biscoito.biscoidoSalgado();             
+            
+            if (bs == 1) {
+                salgado.exibirInfoBiscoitoSalgado();
+                System.out.println();
+            } else if (bs == 2) {
+                doce.exibirInfoBiscoitoDoce();
+                System.out.println();
+            } else {
+                System.out.println("Você não selecionou nenhuma opção válida!");
+            } 
+            
+        } else if (escolha == 2) {
+            Scanner bol = new Scanner(System.in);
+            System.out.println("Escolha uma opção de Bolo: [1]Veu de Noiva [2]Chocolate");
+            int bl = bol.nextInt();
+            BoloteriaFactory boloteria = new BoloCasamento();
+            Bolo bolo = boloteria.criarBolo();
+            
+            if (bl == 1) {                
+                bolo.exibirInfo();
+                System.out.println();
+            } else if (bl == 2) {
+                boloteria = new BoloFesta();
+                bolo = boloteria.criarBolo();
+                bolo.exibirInfo();
+                System.out.println();
+            } else {
+                System.out.println("Você não selecionou nenhuma opção válida!");
+            }
+            
+        } else if (escolha == 3) {
+            Scanner doc = new Scanner(System.in);
+            System.out.println("Escolha uma opção de Doce: [1]Suspiro [2]Paçoca");
+            int dc = doc.nextInt();            
+            Suspiro suspiroPrototipo = new Suspiro(); 
+            DoceteriaPrototype suspiro = suspiroPrototipo.clonar();
+            suspiro.setValorCompra(1.99);
         
-        ///BOLOTERIA
-        BoloteriaFactory boloteria = new BoloCasamento();
-        Bolo bolo = boloteria.criarBolo();
-        bolo.exibirInfo();
-        System.out.println();
-        
-        boloteria = new BoloFesta();
-        bolo = boloteria.criarBolo();
-        bolo.exibirInfo();
-        System.out.println();
-        
-        
-        ///DOCETERIA
-        Suspiro suspiroPrototipo = new Suspiro(); 
-        DoceteriaPrototype suspiro = suspiroPrototipo.clonar();
-        suspiro.setValorCompra(1.99);
-        
-        Pacoca pacocaPrototipo = new Pacoca();
-        DoceteriaPrototype pacoca = pacocaPrototipo.clonar();
-        pacoca.setValorCompra(0.25);
-        
-        System.out.println(suspiro.exibirInfo());
-        System.out.println(pacoca.exibirInfo());
-        
-        
-    }
-    
+            Pacoca pacocaPrototipo = new Pacoca();
+            DoceteriaPrototype pacoca = pacocaPrototipo.clonar();
+            pacoca.setValorCompra(0.25);
+            
+            if (dc == 1) {
+                System.out.println(suspiro.exibirInfo());
+                
+            } else if (dc == 2) {
+               System.out.println(pacoca.exibirInfo()); 
+            } else {
+                System.out.println("Você não selecionou nenhuma opção válida!");
+            }            
+        } else {
+            System.out.println("Você não selecionou nenhuma opção válida!");
+        }        
+    }    
 }

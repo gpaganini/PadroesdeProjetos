@@ -2,41 +2,35 @@
 
 <ClassDiagram name="QueDeleite">
   <ClassDiagramComponents>
-    <Interface name="BiscoiteriaFactory" package="quedeleite.Biscoiteria" visibility="public" xPosition="20.0" yPosition="20.0">
-      <Methods>
-        <Method name="biscoidoSalgado" returnType="Salgado" visibility="package"/>
-        <Method name="biscoitoDoce" returnType="Doce" visibility="package"/>
-      </Methods>
-    </Interface>
-    <Class name="BiscoitoMel" package="quedeleite.Biscoiteria" visibility="public" xPosition="320.0" yPosition="20.0">
+    <Class name="BiscoitoMel" package="quedeleite.Biscoiteria" visibility="public" xPosition="257.0" yPosition="453.0">
       <Fields/>
       <Constructors/>
       <Methods>
         <Method name="exibirInfoBiscoitoDoce" returnType="void" visibility="public"/>
       </Methods>
     </Class>
-    <Class name="BiscoitoNata" package="quedeleite.Biscoiteria" visibility="public" xPosition="620.0" yPosition="20.0">
+    <Class name="BiscoitoNata" package="quedeleite.Biscoiteria" visibility="public" xPosition="257.0" yPosition="165.0">
       <Fields/>
       <Constructors/>
       <Methods>
         <Method name="exibirInfoBiscoitoDoce" returnType="void" visibility="public"/>
       </Methods>
     </Class>
-    <Class name="BiscoitoPolvilho" package="quedeleite.Biscoiteria" visibility="public" xPosition="920.0" yPosition="20.0">
+    <Class name="BiscoitoPolvilho" package="quedeleite.Biscoiteria" visibility="public" xPosition="1179.0" yPosition="165.0">
       <Fields/>
       <Constructors/>
       <Methods>
         <Method name="exibirInfoBiscoitoSalgado" returnType="void" visibility="public"/>
       </Methods>
     </Class>
-    <Class name="BiscoitoQueijo" package="quedeleite.Biscoiteria" visibility="public" xPosition="1220.0" yPosition="20.0">
+    <Class name="BiscoitoQueijo" package="quedeleite.Biscoiteria" visibility="public" xPosition="1179.0" yPosition="453.0">
       <Fields/>
       <Constructors/>
       <Methods>
         <Method name="exibirInfoBiscoitoSalgado" returnType="void" visibility="public"/>
       </Methods>
     </Class>
-    <Class name="BiscoitosMamae" package="quedeleite.Biscoiteria" visibility="public" xPosition="1520.0" yPosition="20.0">
+    <Class name="BiscoitosMamae" package="quedeleite.Biscoiteria" visibility="public" xPosition="716.0" yPosition="503.0">
       <Fields/>
       <Constructors/>
       <Methods>
@@ -44,7 +38,7 @@
         <Method name="biscoitoDoce" returnType="Doce" visibility="public"/>
       </Methods>
     </Class>
-    <Class name="BiscoitosVovo" package="quedeleite.Biscoiteria" visibility="public" xPosition="1820.0" yPosition="20.0">
+    <Class name="BiscoitosVovo" package="quedeleite.Biscoiteria" visibility="public" xPosition="716.0" yPosition="89.0">
       <Fields/>
       <Constructors/>
       <Methods>
@@ -52,83 +46,63 @@
         <Method name="biscoitoDoce" returnType="Doce" visibility="public"/>
       </Methods>
     </Class>
-    <Interface name="Doce" package="quedeleite.Biscoiteria" visibility="public" xPosition="2120.0" yPosition="20.0">
-      <Methods>
-        <Method name="exibirInfoBiscoitoDoce" returnType="void" visibility="package"/>
-      </Methods>
-    </Interface>
-    <Interface name="Salgado" package="quedeleite.Biscoiteria" visibility="public" xPosition="20.0" yPosition="420.0">
-      <Methods>
-        <Method name="exibirInfoBiscoitoSalgado" returnType="void" visibility="package"/>
-      </Methods>
-    </Interface>
-    <Interface name="Bolo" package="quedeleite.Boloteria" visibility="public" xPosition="320.0" yPosition="420.0">
-      <Methods>
-        <Method name="exibirInfo" returnType="void" visibility="package"/>
-      </Methods>
-    </Interface>
-    <Class name="BoloAniversario" package="quedeleite.Boloteria" visibility="public" xPosition="620.0" yPosition="420.0">
+    <Class name="BoloAniversario" package="quedeleite.Boloteria" visibility="public" xPosition="364.0" yPosition="1184.0">
       <Fields/>
       <Constructors/>
       <Methods>
         <Method name="criarBolo" returnType="Bolo" visibility="public"/>
       </Methods>
     </Class>
-    <Class name="BoloBenDez" package="quedeleite.Boloteria" visibility="public" xPosition="920.0" yPosition="420.0">
+    <Class name="BoloBenDez" package="quedeleite.Boloteria" visibility="public" xPosition="364.0" yPosition="1538.0">
       <Fields/>
       <Constructors/>
       <Methods>
         <Method name="exibirInfo" returnType="void" visibility="public"/>
       </Methods>
     </Class>
-    <Class name="BoloCasamento" package="quedeleite.Boloteria" visibility="public" xPosition="1220.0" yPosition="420.0">
+    <Class name="BoloCasamento" package="quedeleite.Boloteria" visibility="public" xPosition="680.0" yPosition="1184.0">
       <Fields/>
       <Constructors/>
       <Methods>
         <Method name="criarBolo" returnType="Bolo" visibility="public"/>
       </Methods>
     </Class>
-    <Class name="BoloExecutivo" package="quedeleite.Boloteria" visibility="public" xPosition="1520.0" yPosition="420.0">
+    <Class name="BoloExecutivo" package="quedeleite.Boloteria" visibility="public" xPosition="958.0" yPosition="1184.0">
       <Fields/>
       <Constructors/>
       <Methods>
         <Method name="criarBolo" returnType="Bolo" visibility="public"/>
       </Methods>
     </Class>
-    <Class name="BoloFerreroRocher" package="quedeleite.Boloteria" visibility="public" xPosition="1820.0" yPosition="420.0">
+    <Class name="BoloFerreroRocher" package="quedeleite.Boloteria" visibility="public" xPosition="206.0" yPosition="1381.0">
       <Fields/>
       <Constructors/>
       <Methods>
         <Method name="exibirInfo" returnType="void" visibility="public"/>
       </Methods>
     </Class>
-    <Class name="BoloFesta" package="quedeleite.Boloteria" visibility="public" xPosition="2120.0" yPosition="420.0">
+    <Class name="BoloFesta" package="quedeleite.Boloteria" visibility="public" xPosition="101.0" yPosition="1184.0">
       <Fields/>
       <Constructors/>
       <Methods>
         <Method name="criarBolo" returnType="Bolo" visibility="public"/>
       </Methods>
     </Class>
-    <Interface name="BoloteriaFactory" package="quedeleite.Boloteria" visibility="public" xPosition="20.0" yPosition="820.0">
-      <Methods>
-        <Method name="criarBolo" returnType="Bolo" visibility="package"/>
-      </Methods>
-    </Interface>
-    <Class name="Chocolate" package="quedeleite.Boloteria" visibility="public" xPosition="320.0" yPosition="820.0">
+    <Class name="Chocolate" package="quedeleite.Boloteria" visibility="public" xPosition="680.0" yPosition="1538.0">
       <Fields/>
       <Constructors/>
       <Methods>
         <Method name="exibirInfo" returnType="void" visibility="public"/>
       </Methods>
     </Class>
-    <Class name="VeuDeNoiva" package="quedeleite.Boloteria" visibility="public" xPosition="620.0" yPosition="820.0">
+    <Class name="VeuDeNoiva" package="quedeleite.Boloteria" visibility="public" xPosition="838.0" yPosition="1381.0">
       <Fields/>
       <Constructors/>
       <Methods>
         <Method name="exibirInfo" returnType="void" visibility="public"/>
       </Methods>
     </Class>
-    <Class name="DoceDeLeite" package="quedeleite.Doceteria" visibility="public" xPosition="920.0" yPosition="820.0">
+    <Class name="DoceDeLeite" package="quedeleite.Doceteria" visibility="public" xPosition="1203.0" yPosition="1044.0">
       <Fields/>
       <Constructors>
         <Constructor visibility="protected">
@@ -141,7 +115,7 @@
         <Method name="clonar" returnType="DoceteriaPrototype" visibility="public"/>
       </Methods>
     </Class>
-    <Class name="DoceteriaPrototype" package="quedeleite.Doceteria" visibility="public" isAbstract="true" xPosition="1220.0" yPosition="820.0">
+    <Class name="DoceteriaPrototype" package="quedeleite.Doceteria" visibility="public" isAbstract="true" xPosition="1012.0" yPosition="732.0">
       <Fields>
         <Field name="valorCompra" type="double" visibility="protected"/>
       </Fields>
@@ -155,7 +129,7 @@
         </Method>
       </Methods>
     </Class>
-    <Class name="Pacoca" package="quedeleite.Doceteria" visibility="public" xPosition="1520.0" yPosition="820.0">
+    <Class name="Pacoca" package="quedeleite.Doceteria" visibility="public" xPosition="1606.0" yPosition="1044.0">
       <Fields/>
       <Constructors>
         <Constructor visibility="protected">
@@ -168,7 +142,7 @@
         <Method name="clonar" returnType="DoceteriaPrototype" visibility="public"/>
       </Methods>
     </Class>
-    <Class name="PeDeMoleque" package="quedeleite.Doceteria" visibility="public" xPosition="1820.0" yPosition="820.0">
+    <Class name="PeDeMoleque" package="quedeleite.Doceteria" visibility="public" xPosition="1462.0" yPosition="609.0">
       <Fields/>
       <Constructors>
         <Constructor visibility="protected">
@@ -181,7 +155,7 @@
         <Method name="clonar" returnType="DoceteriaPrototype" visibility="public"/>
       </Methods>
     </Class>
-    <Class name="Suspiro" package="quedeleite.Doceteria" visibility="public" xPosition="2120.0" yPosition="820.0">
+    <Class name="Suspiro" package="quedeleite.Doceteria" visibility="public" xPosition="1606.0" yPosition="818.0">
       <Fields/>
       <Constructors>
         <Constructor visibility="protected">
@@ -194,7 +168,7 @@
         <Method name="clonar" returnType="DoceteriaPrototype" visibility="public"/>
       </Methods>
     </Class>
-    <Class name="QueDeleite" package="quedeleite" visibility="public" xPosition="20.0" yPosition="1220.0">
+    <Class name="QueDeleite" package="quedeleite" visibility="public" xPosition="584.0" yPosition="768.0">
       <Fields/>
       <Constructors/>
       <Methods>
@@ -203,41 +177,70 @@
         </Method>
       </Methods>
     </Class>
+    <Interface name="BiscoiteriaFactory" package="quedeleite.Biscoiteria" visibility="public" xPosition="716.0" yPosition="302.0">
+      <Methods>
+        <Method name="biscoidoSalgado" returnType="Salgado" visibility="package"/>
+        <Method name="biscoitoDoce" returnType="Doce" visibility="package"/>
+      </Methods>
+    </Interface>
+    <Interface name="Doce" package="quedeleite.Biscoiteria" visibility="public" xPosition="446.0" yPosition="312.0">
+      <Methods>
+        <Method name="exibirInfoBiscoitoDoce" returnType="void" visibility="package"/>
+      </Methods>
+    </Interface>
+    <Interface name="Salgado" package="quedeleite.Biscoiteria" visibility="public" xPosition="973.0" yPosition="312.0">
+      <Methods>
+        <Method name="exibirInfoBiscoitoSalgado" returnType="void" visibility="package"/>
+      </Methods>
+    </Interface>
+    <Interface name="Bolo" package="quedeleite.Boloteria" visibility="public" xPosition="522.0" yPosition="1381.0">
+      <Methods>
+        <Method name="exibirInfo" returnType="void" visibility="package"/>
+      </Methods>
+    </Interface>
+    <Interface name="BoloteriaFactory" package="quedeleite.Boloteria" visibility="public" xPosition="522.0" yPosition="1017.0">
+      <Methods>
+        <Method name="criarBolo" returnType="Bolo" visibility="package"/>
+      </Methods>
+    </Interface>
   </ClassDiagramComponents>
   <ClassDiagramRelations>
     <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="quedeleite.Biscoiteria.BiscoitoQueijo" target="quedeleite.Biscoiteria.Salgado"/>
-    <IsRelation name="is" source="quedeleite.Doceteria.Suspiro" target="quedeleite.Doceteria.DoceteriaPrototype"/>
+    <IsRelation name="is" source="quedeleite.Doceteria.Pacoca" target="quedeleite.Doceteria.DoceteriaPrototype"/>
     <UseRelation source="quedeleite.Boloteria.BoloFesta" target="quedeleite.Boloteria.Bolo" sourceCardinality="1..1" targetCardinality="1..1"/>
-    <UseRelation source="quedeleite.Biscoiteria.BiscoitosMamae" target="quedeleite.Biscoiteria.Salgado" sourceCardinality="1..1" targetCardinality="1..1"/>
-    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="quedeleite.Boloteria.BoloExecutivo" target="quedeleite.Boloteria.BoloteriaFactory"/>
-    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="quedeleite.Boloteria.Chocolate" target="quedeleite.Boloteria.Bolo"/>
-    <UseRelation source="quedeleite.Biscoiteria.BiscoiteriaFactory" target="quedeleite.Biscoiteria.Doce" sourceCardinality="1..1" targetCardinality="1..1"/>
-    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="quedeleite.Biscoiteria.BiscoitoPolvilho" target="quedeleite.Biscoiteria.Salgado"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="quedeleite.Boloteria.BoloBenDez" target="quedeleite.Boloteria.Bolo"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="quedeleite.Biscoiteria.BiscoitosMamae" target="quedeleite.Biscoiteria.BiscoiteriaFactory"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="quedeleite.Biscoiteria.BiscoitosVovo" target="quedeleite.Biscoiteria.BiscoiteriaFactory"/>
+    <UseRelation source="quedeleite.Doceteria.Pacoca" target="quedeleite.Doceteria.DoceteriaPrototype" sourceCardinality="1..1" targetCardinality="1..1"/>
     <UseRelation source="quedeleite.Boloteria.BoloCasamento" target="quedeleite.Boloteria.Bolo" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <IsRelation name="is" source="quedeleite.Doceteria.Suspiro" target="quedeleite.Doceteria.DoceteriaPrototype"/>
+    <UseRelation name="Usa" source="quedeleite.QueDeleite" target="quedeleite.Doceteria.DoceteriaPrototype" sourceCardinality="1..1" targetCardinality="1..1"/>
     <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="quedeleite.Boloteria.BoloCasamento" target="quedeleite.Boloteria.BoloteriaFactory"/>
-    <UseRelation source="quedeleite.Boloteria.BoloExecutivo" target="quedeleite.Boloteria.Bolo" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="quedeleite.Boloteria.BoloAniversario" target="quedeleite.Boloteria.BoloteriaFactory"/>
     <UseRelation source="quedeleite.Biscoiteria.BiscoitosVovo" target="quedeleite.Biscoiteria.Doce" sourceCardinality="1..1" targetCardinality="1..1"/>
-    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="quedeleite.Boloteria.BoloFesta" target="quedeleite.Boloteria.BoloteriaFactory"/>
-    <UseRelation source="quedeleite.Doceteria.PeDeMoleque" target="quedeleite.Doceteria.DoceteriaPrototype" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="quedeleite.Biscoiteria.BiscoitosMamae" target="quedeleite.Biscoiteria.Doce" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="quedeleite.Biscoiteria.BiscoitosMamae" target="quedeleite.Biscoiteria.Salgado" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="quedeleite.Biscoiteria.BiscoitoNata" target="quedeleite.Biscoiteria.Doce"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="quedeleite.Boloteria.BoloFerreroRocher" target="quedeleite.Boloteria.Bolo"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="quedeleite.Biscoiteria.BiscoitoMel" target="quedeleite.Biscoiteria.Doce"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="quedeleite.Boloteria.Chocolate" target="quedeleite.Boloteria.Bolo"/>
+    <UseRelation source="quedeleite.Biscoiteria.BiscoiteriaFactory" target="quedeleite.Biscoiteria.Salgado" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="quedeleite.Boloteria.BoloteriaFactory" target="quedeleite.Boloteria.Bolo" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation name="Usa" source="quedeleite.QueDeleite" target="quedeleite.Biscoiteria.BiscoiteriaFactory" sourceCardinality="1..1" targetCardinality="1..1"/>
     <UseRelation source="quedeleite.Doceteria.DoceDeLeite" target="quedeleite.Doceteria.DoceteriaPrototype" sourceCardinality="1..1" targetCardinality="1..1"/>
     <UseRelation source="quedeleite.Biscoiteria.BiscoitosVovo" target="quedeleite.Biscoiteria.Salgado" sourceCardinality="1..1" targetCardinality="1..1"/>
-    <IsRelation name="is" source="quedeleite.Doceteria.DoceDeLeite" target="quedeleite.Doceteria.DoceteriaPrototype"/>
-    <UseRelation source="quedeleite.Biscoiteria.BiscoiteriaFactory" target="quedeleite.Biscoiteria.Salgado" sourceCardinality="1..1" targetCardinality="1..1"/>
-    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="quedeleite.Biscoiteria.BiscoitoNata" target="quedeleite.Biscoiteria.Doce"/>
-    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="quedeleite.Biscoiteria.BiscoitoMel" target="quedeleite.Biscoiteria.Doce"/>
-    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="quedeleite.Boloteria.BoloBenDez" target="quedeleite.Boloteria.Bolo"/>
-    <UseRelation source="quedeleite.Doceteria.Suspiro" target="quedeleite.Doceteria.DoceteriaPrototype" sourceCardinality="1..1" targetCardinality="1..1"/>
-    <UseRelation source="quedeleite.Biscoiteria.BiscoitosMamae" target="quedeleite.Biscoiteria.Doce" sourceCardinality="1..1" targetCardinality="1..1"/>
     <UseRelation source="quedeleite.Doceteria.DoceteriaPrototype" target="quedeleite.Doceteria.DoceteriaPrototype" sourceCardinality="1..1" targetCardinality="1..1"/>
-    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="quedeleite.Biscoiteria.BiscoitosVovo" target="quedeleite.Biscoiteria.BiscoiteriaFactory"/>
-    <UseRelation source="quedeleite.Boloteria.BoloAniversario" target="quedeleite.Boloteria.Bolo" sourceCardinality="1..1" targetCardinality="1..1"/>
-    <IsRelation name="is" source="quedeleite.Doceteria.Pacoca" target="quedeleite.Doceteria.DoceteriaPrototype"/>
-    <UseRelation source="quedeleite.Boloteria.BoloteriaFactory" target="quedeleite.Boloteria.Bolo" sourceCardinality="1..1" targetCardinality="1..1"/>
-    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="quedeleite.Boloteria.BoloAniversario" target="quedeleite.Boloteria.BoloteriaFactory"/>
-    <UseRelation source="quedeleite.Doceteria.Pacoca" target="quedeleite.Doceteria.DoceteriaPrototype" sourceCardinality="1..1" targetCardinality="1..1"/>
     <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="quedeleite.Boloteria.VeuDeNoiva" target="quedeleite.Boloteria.Bolo"/>
-    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="quedeleite.Biscoiteria.BiscoitosMamae" target="quedeleite.Biscoiteria.BiscoiteriaFactory"/>
+    <IsRelation name="is" source="quedeleite.Doceteria.DoceDeLeite" target="quedeleite.Doceteria.DoceteriaPrototype"/>
+    <UseRelation source="quedeleite.Boloteria.BoloAniversario" target="quedeleite.Boloteria.Bolo" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="quedeleite.Boloteria.BoloExecutivo" target="quedeleite.Boloteria.BoloteriaFactory"/>
+    <UseRelation name="usa" source="quedeleite.QueDeleite" target="quedeleite.Boloteria.BoloteriaFactory" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="quedeleite.Boloteria.BoloExecutivo" target="quedeleite.Boloteria.Bolo" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="quedeleite.Boloteria.BoloFesta" target="quedeleite.Boloteria.BoloteriaFactory"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="quedeleite.Biscoiteria.BiscoitoPolvilho" target="quedeleite.Biscoiteria.Salgado"/>
+    <UseRelation source="quedeleite.Biscoiteria.BiscoiteriaFactory" target="quedeleite.Biscoiteria.Doce" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="quedeleite.Doceteria.PeDeMoleque" target="quedeleite.Doceteria.DoceteriaPrototype" sourceCardinality="1..1" targetCardinality="1..1"/>
     <IsRelation name="is" source="quedeleite.Doceteria.PeDeMoleque" target="quedeleite.Doceteria.DoceteriaPrototype"/>
-    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="quedeleite.Boloteria.BoloFerreroRocher" target="quedeleite.Boloteria.Bolo"/>
+    <UseRelation source="quedeleite.Doceteria.Suspiro" target="quedeleite.Doceteria.DoceteriaPrototype" sourceCardinality="1..1" targetCardinality="1..1"/>
   </ClassDiagramRelations>
 </ClassDiagram>

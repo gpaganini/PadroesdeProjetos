@@ -1,4 +1,8 @@
 package quedeleite;
+/**
+ *
+ * @author Giovani Paganini <giovanipaganini@outlook.com>
+ */
 
 import java.util.Scanner;
 import quedeleite.Biscoiteria.BiscoiteriaFactory;

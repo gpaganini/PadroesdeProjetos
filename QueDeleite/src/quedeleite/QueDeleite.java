@@ -2,10 +2,12 @@ package quedeleite;
 
 import java.util.Scanner;
 import quedeleite.Biscoiteria.BiscoiteriaFactory;
+import quedeleite.Biscoiteria.BiscoitosMamae;
 import quedeleite.Biscoiteria.BiscoitosVovo;
 import quedeleite.Biscoiteria.Doce;
 import quedeleite.Biscoiteria.Salgado;
 import quedeleite.Boloteria.Bolo;
+import quedeleite.Boloteria.BoloAniversario;
 import quedeleite.Boloteria.BoloCasamento;
 import quedeleite.Boloteria.BoloFesta;
 import quedeleite.Boloteria.BoloteriaFactory;
@@ -34,7 +36,7 @@ public class QueDeleite {
         
         if (escolha == 1) {
             Scanner bisq = new Scanner(System.in);
-            System.out.println("Escolha uma opção de biscoito: [1]Polvilho [2]Nata");
+            System.out.println("Escolha uma opção de biscoito: [1]Polvilho [2]Nata [3]Queijo [4]Mel");
             int bs = bisq.nextInt();            
             BiscoiteriaFactory biscoito = new BiscoitosVovo();
             Doce doce = biscoito.biscoitoDoce();
@@ -44,6 +46,16 @@ public class QueDeleite {
                 salgado.exibirInfoBiscoitoSalgado();
                 System.out.println();
             } else if (bs == 2) {
+                doce.exibirInfoBiscoitoDoce();
+                System.out.println();
+            } else if (bs == 3) {
+                biscoito = new BiscoitosMamae();
+                salgado = biscoito.biscoidoSalgado();
+                salgado.exibirInfoBiscoitoSalgado();
+                System.out.println();
+            } else if (bs == 4) {
+                biscoito = new BiscoitosMamae();
+                doce = biscoito.biscoitoDoce();
                 doce.exibirInfoBiscoitoDoce();
                 System.out.println();
             } else {
@@ -65,7 +77,14 @@ public class QueDeleite {
                 bolo = boloteria.criarBolo();
                 bolo.exibirInfo();
                 System.out.println();
-            } else {
+            } else if (bl == 3) {
+                boloteria = new BoloAniversario();
+                bolo = boloteria.criarBolo();
+                bolo.exibirInfo();
+                sout
+            } 
+            
+            else {
                 System.out.println("Você não selecionou nenhuma opção válida!");
             }
             
@@ -86,7 +105,10 @@ public class QueDeleite {
                 
             } else if (dc == 2) {
                System.out.println(pacoca.exibirInfo()); 
-            } else {
+            } 
+            
+            
+            else {
                 System.out.println("Você não selecionou nenhuma opção válida!");
             }            
         } else {

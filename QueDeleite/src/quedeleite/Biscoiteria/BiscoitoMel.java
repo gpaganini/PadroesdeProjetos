@@ -9,12 +9,12 @@ package quedeleite.Biscoiteria;
  *
  * @author Giovani Paganini <giovanipaganini@outlook.com>
  */
-public class BiscoitoNata implements Doce {
-
+class BiscoitoMel implements Doce {
+    
     @Override
     public void exibirInfoBiscoitoDoce() {
-        System.out.println("Biscoito Doce de Nata\nBiscoitos da Vovo");
+        System.out.println("Biscoito Doce de Mel\nBiscoitos da Mamãe");
+                
     }
-
     
 }

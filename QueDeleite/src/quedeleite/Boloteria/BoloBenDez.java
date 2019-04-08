@@ -3,17 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package quedeleite.Biscoiteria;
+package quedeleite.Boloteria;
 
 /**
  *
  * @author Giovani Paganini <giovanipaganini@outlook.com>
  */
-public class BiscoitoNata implements Doce {
+class BoloBenDez implements Bolo {
 
     @Override
-    public void exibirInfoBiscoitoDoce() {
-        System.out.println("Biscoito Doce de Nata\nBiscoitos da Vovo");
+    public void exibirInfo() {
+       System.out.println("Bolo Ben 10\nBolo de Aniversario do Ben 10");
     }
 
     

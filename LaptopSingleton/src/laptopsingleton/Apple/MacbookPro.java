@@ -3,9 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package laptopmethod.Apple;
+package laptopsingleton.Apple;
+import laptopsingleton.Interfaces.Laptop;
 
-import laptopmethod.Interfaces.Laptop;
+
 
 /**
  *

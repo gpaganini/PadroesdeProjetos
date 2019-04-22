@@ -3,18 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package laptopmethod.Apple;
+package laptopsingleton.Apple;
 
-import laptopmethod.Interfaces.FabricaDeLaptop;
-import laptopmethod.Interfaces.Laptop;
+import laptopsingleton.Interfaces.FabricaDeLaptop;
+import laptopsingleton.Interfaces.Laptop;
+
 
 /**
  *
 * @author Giovani Paganini <giovanipaganini@outlook.com>
  */
-public class FabricaApple implements FabricaDeLaptop {
-
-    @Override
+public class FabricaApple extends FabricaDeLaptop {
     public Laptop criarLaptop() {
         return new MacbookPro();
     }

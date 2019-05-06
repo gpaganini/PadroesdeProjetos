@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *.xml
 *.properties
 
@@ -17,3 +18,25 @@ LaptopFactory/nbproject/private/private\.properties
 
 \.DS_Store
 /Adaptadora/nbproject/private/
+=======
+*.xml
+*.properties
+
+/LaptopMethod/nbproject/private/
+/LaptopMethod/build/
+LaptopFactory/nbproject/private/private\.xml
+
+LaptopFactory/nbproject/private/private\.properties
+/LaptopPrototype/nbproject/private/
+/LaptopPrototype/build/
+/QueDeleite/nbproject/private/
+/QueDeleite/build/
+/LaptopBuilder/nbproject/private/
+/LaptopBuilder/build/
+/sumtest/nbproject/private/
+/sumtest/build/
+
+\.DS_Store
+/LaptopSingleton/nbproject/private/
+/LaptopSingleton/build/
+>>>>>>> master

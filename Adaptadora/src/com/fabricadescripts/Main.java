@@ -28,7 +28,10 @@ public class Main {
             res = sum.adicao();
 
             BinaryAdapter binAdapter = new BinaryAdapter();
+            HexadecimalAdapter hexaAdapter = new HexadecimalAdapter();
+
             binAdapter.Dec2Bin(res);
+            hexaAdapter.Dec2Hex(res);
 
             /*System.out.println(a + " + " + b + " = " + c);
             System.out.println("Binário: " + Integer.toString(c,2));

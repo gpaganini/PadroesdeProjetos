@@ -7,15 +7,9 @@ public class Main {
 
     public static void main(String[] args) {
 
+        int res = 0;
+
         Scanner scanner = new Scanner(System.in);
-        int a, b, c = 0;
-
-        System.out.println("Digite o primeiro número: \n");
-        a = scanner.nextInt();
-
-        System.out.println("Digite o segundo número: \n");
-        b = scanner.nextInt();
-
         System.out.println("Escolha a operação " +
                 "\n 1 [+] " +
                 "\n 2 [-] " +
@@ -30,29 +24,36 @@ public class Main {
         int divisao = 4;
 
         if (whatever == adicao) {
-            c = a + b;
-            System.out.println(a + " + " + b + " = " + c);
+            Calculadora sum = new Calculadora();
+            res = sum.adicao();
+
+            /*System.out.println(a + " + " + b + " = " + c);
             System.out.println("Binário: " + Integer.toString(c,2));
             System.out.println("Octal: " + Integer.toString(c, 8));
-            System.out.println("Hexadecimal: " + Integer.toString(c, 16));
+            System.out.println("Hexadecimal: " + Integer.toString(c, 16));*/
         } else if (whatever == subtracao) {
-            c = a - b;
+            Calculadora sub = new Calculadora();
+            res = sub.subtracao();
+
+            /*c = a - b;
             System.out.println(a + " - " + b + " = " + c);
             System.out.println("Binário: " + Integer.toString(c,2));
             System.out.println("Octal: " + Integer.toString(c, 8));
-            System.out.println("Hexadecimal: " + Integer.toString(c, 16));
+            System.out.println("Hexadecimal: " + Integer.toString(c, 16));*/
         } else if (whatever == multiplicacao) {
-            c = a * b;
+            /*c = a * b;
             System.out.println(a + " * " + b + " = " + c);
             System.out.println("Binário: " + Integer.toString(c,2));
             System.out.println("Octal: " + Integer.toString(c, 8));
-            System.out.println("Hexadecimal: " + Integer.toString(c, 16));
+            System.out.println("Hexadecimal: " + Integer.toString(c, 16));*/
         } else if (whatever == divisao) {
-            c = a / b;
+            /*c = a / b;
             System.out.println(a + " / " + b + " = " + c);
             System.out.println("Binário: " + Integer.toString(c,2));
             System.out.println("Octal: " + Integer.toString(c, 8));
-            System.out.println("Hexadecimal: " + Integer.toString(c, 16));
+            System.out.println("Hexadecimal: " + Integer.toString(c, 16));*/
+        } else {
+            System.out.println("A113!");
         }
     }
 }

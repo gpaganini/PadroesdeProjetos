@@ -6,12 +6,16 @@ public class Calculadora {
 
     int num1, num2, res = 0;
 
-    public int sum() {
+    public int adicao() {
         Scanner scanner = new Scanner(System.in);
 
+        System.out.println("Digite o primeiro número: \n");
+        num1 = scanner.nextInt();
+        System.out.println("Digite o segundo número: \n");
+        num2 = scanner.nextInt();
 
-
-
+        res = num1 + num2;
+        
         return 0;
     }
 

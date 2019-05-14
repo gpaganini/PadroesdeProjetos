@@ -15,8 +15,12 @@ public class Calculadora {
         num2 = scanner.nextInt();
 
         res = num1 + num2;
-        
-        return 0;
+
+        System.out.println(num1 + " + " + num2 + " = " + res + "\n");
+
+        return res;
     }
+
+    
 
 }

@@ -27,6 +27,9 @@ public class Main {
             Calculadora sum = new Calculadora();
             res = sum.adicao();
 
+            BinaryAdapter binAdapter = new BinaryAdapter();
+            binAdapter.Dec2Bin(res);
+
             /*System.out.println(a + " + " + b + " = " + c);
             System.out.println("Binário: " + Integer.toString(c,2));
             System.out.println("Octal: " + Integer.toString(c, 8));

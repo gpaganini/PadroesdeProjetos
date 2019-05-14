@@ -16,7 +16,7 @@ public class Calculadora {
 
         res = num1 + num2;
 
-        System.out.println(num1 + " + " + num2 + " = " + res + "\n");
+        System.out.println("Decimal: " + num1 + " + " + num2 + " = " + res + "\n");
         return res;
     }
 
@@ -30,7 +30,7 @@ public class Calculadora {
 
         res = num1 - num2;
 
-        System.out.println(num1 + " - " + num2 + " = " + res + "\n");
+        System.out.println("Decimal: " + num1 + " - " + num2 + " = " + res + "\n");
         return res;
     }
 
@@ -44,7 +44,7 @@ public class Calculadora {
 
         res = num1 * num2;
 
-        System.out.println(num1 + " x " + num2 + " = " + res + "\n");
+        System.out.println("Decimal: " + num1 + " * " + num2 + " = " + res + "\n");
         return res;
     }
 
@@ -58,7 +58,7 @@ public class Calculadora {
 
         res = num1 / num2;
 
-        System.out.println(num1 + " / " + num2 + " = " + res + "\n");
+        System.out.println("Decimal: " + num1 + " / " + num2 + " = " + res + "\n");
         return res;
     }
 

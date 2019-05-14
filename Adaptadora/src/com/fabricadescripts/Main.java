@@ -8,6 +8,7 @@ public class Main {
     public static void main(String[] args) {
 
         int res = 0;
+        String restart;
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Escolha a operação " +
@@ -23,43 +24,49 @@ public class Main {
         int multiplicacao = 3;
         int divisao = 4;
 
+        BinaryAdapter binAdapter = new BinaryAdapter();
+        OctalAdapter octaAdapter = new OctalAdapter();
+        HexadecimalAdapter hexaAdapter = new HexadecimalAdapter();
+
         if (whatever == adicao) {
             Calculadora sum = new Calculadora();
             res = sum.adicao();
 
-            BinaryAdapter binAdapter = new BinaryAdapter();
-            HexadecimalAdapter hexaAdapter = new HexadecimalAdapter();
-
             binAdapter.Dec2Bin(res);
+            octaAdapter.Dec2Octa(res);
             hexaAdapter.Dec2Hex(res);
-
-            /*System.out.println(a + " + " + b + " = " + c);
-            System.out.println("Binário: " + Integer.toString(c,2));
-            System.out.println("Octal: " + Integer.toString(c, 8));
-            System.out.println("Hexadecimal: " + Integer.toString(c, 16));*/
         } else if (whatever == subtracao) {
             Calculadora sub = new Calculadora();
             res = sub.subtracao();
 
-            /*c = a - b;
-            System.out.println(a + " - " + b + " = " + c);
-            System.out.println("Binário: " + Integer.toString(c,2));
-            System.out.println("Octal: " + Integer.toString(c, 8));
-            System.out.println("Hexadecimal: " + Integer.toString(c, 16));*/
+            binAdapter.Dec2Bin(res);
+            octaAdapter.Dec2Octa(res);
+            hexaAdapter.Dec2Hex(res);
         } else if (whatever == multiplicacao) {
-            /*c = a * b;
-            System.out.println(a + " * " + b + " = " + c);
-            System.out.println("Binário: " + Integer.toString(c,2));
-            System.out.println("Octal: " + Integer.toString(c, 8));
-            System.out.println("Hexadecimal: " + Integer.toString(c, 16));*/
+            Calculadora mult = new Calculadora();
+            res = mult.multiplicacao();
+
+            binAdapter.Dec2Bin(res);
+            octaAdapter.Dec2Octa(res);
+            hexaAdapter.Dec2Hex(res);
         } else if (whatever == divisao) {
-            /*c = a / b;
-            System.out.println(a + " / " + b + " = " + c);
-            System.out.println("Binário: " + Integer.toString(c,2));
-            System.out.println("Octal: " + Integer.toString(c, 8));
-            System.out.println("Hexadecimal: " + Integer.toString(c, 16));*/
+            Calculadora div = new Calculadora();
+            res = div.divisao();
+
+            binAdapter.Dec2Bin(res);
+            octaAdapter.Dec2Octa(res);
+            hexaAdapter.Dec2Hex(res);
         } else {
             System.out.println("A113!");
+        }
+
+        System.out.println("Calcular novamente? [Y] ou [N] ? \n");
+        restart = scanner.next();
+
+        if (restart.equals("y") || restart.equals("Y")) {
+            main(args);
+        } else {
+            System.exit(0);
         }
     }
 }

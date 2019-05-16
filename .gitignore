@@ -40,3 +40,6 @@ LaptopFactory/nbproject/private/private\.properties
 /LaptopSingleton/nbproject/private/
 /LaptopSingleton/build/
 >>>>>>> master
+/StorageFactory/nbproject/private/
+/LaptopFactory/nbproject/private/
+/StorageFactory/build/

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="StorageFactory">
+  <ClassDiagramComponents>
+    <Class name="XFCarbon500" package="storagefactory.carbonStorage" visibility="public" xPosition="410.0" yPosition="225.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="exibirInfoHardDrive" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="FabricaCarbonStorage" package="storagefactory.carbonStorage" visibility="public" xPosition="674.0" yPosition="225.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="criarHDD" returnType="HardDrive" visibility="public"/>
+        <Method name="criarSSD" returnType="SolidDrive" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="XFDiamond3000" package="storagefactory.carbonStorage" visibility="public" xPosition="958.0" yPosition="674.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="exibirInfoSolidDrive" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="FabricaRapidFlash" package="storagefactory.rapidFlash" visibility="public" xPosition="689.0" yPosition="674.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="criarHDD" returnType="HardDrive" visibility="public"/>
+        <Method name="criarSSD" returnType="SolidDrive" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="RFPowerFlash" package="storagefactory.rapidFlash" visibility="public" xPosition="958.0" yPosition="225.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="exibirInfoSolidDrive" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="RFPowerDrive" package="storagefactory.rapidFlash" visibility="public" xPosition="410.0" yPosition="674.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="exibirInfoHardDrive" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="StorageFactory" package="storagefactory" visibility="public" xPosition="827.0" yPosition="103.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Interface name="FabricaDeStorage" package="storagefactory.interfaces" visibility="public" xPosition="690.0" yPosition="442.0">
+      <Methods>
+        <Method name="criarHDD" returnType="HardDrive" visibility="package"/>
+        <Method name="criarSSD" returnType="SolidDrive" visibility="package"/>
+      </Methods>
+    </Interface>
+    <Interface name="SolidDrive" package="storagefactory.interfaces" visibility="public" xPosition="958.0" yPosition="450.0">
+      <Methods>
+        <Method name="exibirInfoSolidDrive" returnType="void" visibility="package"/>
+      </Methods>
+    </Interface>
+    <Interface name="HardDrive" package="storagefactory.interfaces" visibility="public" xPosition="410.0" yPosition="450.0">
+      <Methods>
+        <Method name="exibirInfoHardDrive" returnType="void" visibility="package"/>
+      </Methods>
+    </Interface>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <UseRelation source="storagefactory.rapidFlash.FabricaRapidFlash" target="storagefactory.interfaces.SolidDrive" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="storagefactory.carbonStorage.FabricaCarbonStorage" target="storagefactory.interfaces.SolidDrive" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="storagefactory.interfaces.FabricaDeStorage" target="storagefactory.interfaces.SolidDrive" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="storagefactory.interfaces.FabricaDeStorage" target="storagefactory.interfaces.HardDrive" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="storagefactory.rapidFlash.FabricaRapidFlash" target="storagefactory.interfaces.FabricaDeStorage"/>
+    <UseRelation name="usa" source="storagefactory.StorageFactory" target="storagefactory.interfaces.FabricaDeStorage" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="storagefactory.rapidFlash.FabricaRapidFlash" target="storagefactory.interfaces.HardDrive" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="storagefactory.carbonStorage.FabricaCarbonStorage" target="storagefactory.interfaces.HardDrive" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="storagefactory.rapidFlash.RFPowerFlash" target="storagefactory.interfaces.SolidDrive"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="storagefactory.rapidFlash.RFPowerDrive" target="storagefactory.interfaces.HardDrive"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="storagefactory.carbonStorage.XFCarbon500" target="storagefactory.interfaces.HardDrive"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="storagefactory.carbonStorage.XFDiamond3000" target="storagefactory.interfaces.SolidDrive"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="storagefactory.carbonStorage.FabricaCarbonStorage" target="storagefactory.interfaces.FabricaDeStorage"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

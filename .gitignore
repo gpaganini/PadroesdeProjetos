@@ -43,3 +43,4 @@ LaptopFactory/nbproject/private/private\.properties
 /StorageFactory/nbproject/private/
 /LaptopFactory/nbproject/private/
 /StorageFactory/build/
+*.class

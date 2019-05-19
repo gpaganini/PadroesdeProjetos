@@ -1,8 +1,14 @@
 package com.donpippos;
 
 public class Main {
-
     public static void main(String[] args) {
-	// write your code here
+	    Prato meuPrato = new Penne();
+
+        System.out.println(meuPrato.getNome() + " = "
+                + meuPrato.getPreco());
+
+        meuPrato = new Bacon(meuPrato);
+        System.out.println(meuPrato.getNome() + " = "
+                + meuPrato.getPreco());
     }
 }

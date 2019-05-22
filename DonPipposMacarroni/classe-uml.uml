@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.donpippos</OriginalElement>
+  <nodes>
+    <node x="0.0" y="343.0">com.donpippos.Frango</node>
+    <node x="627.5000000000001" y="200.0">com.donpippos.Penne</node>
+    <node x="659.0000000000001" y="0.0">com.donpippos.Prato</node>
+    <node x="139.0000000000001" y="343.0">com.donpippos.TomateSeco</node>
+    <node x="855.5000000000001" y="200.0">com.donpippos.Spaghetti</node>
+    <node x="748.0000000000001" y="343.0">com.donpippos.CheiroVerde</node>
+    <node x="0.0" y="437.0">com.donpippos.Main</node>
+    <node x="613.0000000000001" y="343.0">com.donpippos.Bacon</node>
+    <node x="307.0000000000001" y="343.0">com.donpippos.Azeitonas</node>
+    <node x="445.5000000000001" y="166.0">com.donpippos.PratoDecorator</node>
+    <node x="460.0000000000001" y="343.0">com.donpippos.Calabresa</node>
+    <node x="915.0000000000001" y="343.0">com.donpippos.Mozzarella</node>
+    <node x="734.5000000000001" y="200.0">com.donpippos.Talharim</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.donpippos.Talharim" target="com.donpippos.Prato">
+      <point x="0.0" y="-24.5" />
+      <point x="785.0000000000001" y="146.0" />
+      <point x="745.2500000000001" y="146.0" />
+      <point x="17.25" y="58.0" />
+    </edge>
+    <edge source="com.donpippos.Penne" target="com.donpippos.Prato">
+      <point x="0.0" y="-24.5" />
+      <point x="671.0000000000001" y="146.0" />
+      <point x="710.7500000000001" y="146.0" />
+      <point x="-17.25" y="58.0" />
+    </edge>
+    <edge source="com.donpippos.Bacon" target="com.donpippos.PratoDecorator">
+      <point x="0.0" y="-24.5" />
+      <point x="670.5000000000001" y="323.0" />
+      <point x="549.6428571428573" y="323.0" />
+      <point x="23.142857142857224" y="58.5" />
+    </edge>
+    <edge source="com.donpippos.CheiroVerde" target="com.donpippos.PratoDecorator">
+      <point x="0.0" y="-24.5" />
+      <point x="821.5000000000001" y="313.0" />
+      <point x="572.7857142857144" y="313.0" />
+      <point x="46.285714285714334" y="58.5" />
+    </edge>
+    <edge source="com.donpippos.PratoDecorator" target="com.donpippos.Prato">
+      <point x="0.0" y="-58.5" />
+      <point x="526.5000000000001" y="136.0" />
+      <point x="676.2500000000001" y="136.0" />
+      <point x="-51.75" y="58.0" />
+    </edge>
+    <edge source="com.donpippos.TomateSeco" target="com.donpippos.PratoDecorator">
+      <point x="0.0" y="-24.5" />
+      <point x="213.0000000000001" y="313.0" />
+      <point x="480.2142857142858" y="313.0" />
+      <point x="-46.28571428571428" y="58.5" />
+    </edge>
+    <edge source="com.donpippos.Mozzarella" target="com.donpippos.PratoDecorator">
+      <point x="0.0" y="-24.5" />
+      <point x="984.0000000000001" y="303.0" />
+      <point x="595.9285714285716" y="303.0" />
+      <point x="69.42857142857144" y="58.5" />
+    </edge>
+    <edge source="com.donpippos.Calabresa" target="com.donpippos.PratoDecorator">
+      <point x="0.0" y="-24.5" />
+      <point x="0.0" y="58.5" />
+    </edge>
+    <edge source="com.donpippos.Frango" target="com.donpippos.PratoDecorator">
+      <point x="0.0" y="-24.5" />
+      <point x="59.5" y="303.0" />
+      <point x="457.07142857142867" y="303.0" />
+      <point x="-69.42857142857144" y="58.5" />
+    </edge>
+    <edge source="com.donpippos.Spaghetti" target="com.donpippos.Prato">
+      <point x="0.0" y="-24.5" />
+      <point x="909.0000000000001" y="136.0" />
+      <point x="779.7500000000001" y="136.0" />
+      <point x="51.75" y="58.0" />
+    </edge>
+    <edge source="com.donpippos.Azeitonas" target="com.donpippos.PratoDecorator">
+      <point x="0.0" y="-24.5" />
+      <point x="373.5000000000001" y="323.0" />
+      <point x="503.357142857143" y="323.0" />
+      <point x="-23.14285714285711" y="58.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="526.5" y="243.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,6 +1,6 @@
 package com.donpippos;
 
-public class PratoDecorator extends Prato {
+public abstract class PratoDecorator extends Prato {
     Prato prato;
 
     public PratoDecorator(Prato umPrato) {

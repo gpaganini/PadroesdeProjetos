@@ -12,6 +12,11 @@ public class Main {
         meuPrato = new Calabresa(meuPrato);
         System.out.println(meuPrato.getNome() + " = "
                 + meuPrato.getPreco());
+
+        meuPrato = new Mozzarella(meuPrato);
+        System.out.println(meuPrato.getNome() + " = " + meuPrato.getPreco());
+
+        System.out.println(meuPrato instanceof Calabresa);
     }
 }
 

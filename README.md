@@ -6,8 +6,10 @@
  
  ### Requisitos:
  
+ - IntelliJ 2019 (Alguns projetos estão sendo migrados para o Intellij e não são bem suportados no Netbeans)
  - Netbeans 8.x
  - Git
+ 
  
  ### Licença
  

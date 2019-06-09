@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="QueDeleite">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/QueDeleite.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

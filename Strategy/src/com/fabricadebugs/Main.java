@@ -1,8 +1,5 @@
 package com.fabricadebugs;
 
-import com.fabricadebugs.ServicoDeEntrega.Entrega;
-import com.fabricadebugs.ServicoDeEntrega.TipoEntrega;
-
 import java.util.Scanner;
 
 public class Main {

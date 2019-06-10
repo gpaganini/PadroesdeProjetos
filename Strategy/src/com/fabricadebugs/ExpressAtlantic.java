@@ -1,6 +1,4 @@
-package com.fabricadebugs.ServicoDeEntrega.Entregas;
-
-import com.fabricadebugs.ServicoDeEntrega.Entrega;
+package com.fabricadebugs;
 
 public class ExpressAtlantic implements Entrega {
     public double calcularValor(int distancia) {

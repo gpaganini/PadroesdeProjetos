@@ -1,4 +1,4 @@
-package com.fabricadebugs.ServicoDeEntrega;
+package com.fabricadebugs;
 
 public interface Entrega {
 

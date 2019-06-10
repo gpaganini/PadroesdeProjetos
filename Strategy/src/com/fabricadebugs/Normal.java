@@ -1,6 +1,4 @@
-package com.fabricadebugs.ServicoDeEntrega.Entregas;
-
-import com.fabricadebugs.ServicoDeEntrega.Entrega;
+package com.fabricadebugs;
 
 public class Normal implements Entrega {
     public double calcularValor(int distancia) {

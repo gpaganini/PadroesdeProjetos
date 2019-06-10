@@ -1,9 +1,4 @@
-package com.fabricadebugs.ServicoDeEntrega;
-
-import com.fabricadebugs.ServicoDeEntrega.Entregas.AirDeliver;
-import com.fabricadebugs.ServicoDeEntrega.Entregas.ExpressAtlantic;
-import com.fabricadebugs.ServicoDeEntrega.Entregas.Expresso;
-import com.fabricadebugs.ServicoDeEntrega.Entregas.Normal;
+package com.fabricadebugs;
 
 public enum TipoEntrega {
 

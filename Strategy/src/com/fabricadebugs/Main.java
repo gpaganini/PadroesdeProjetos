@@ -2,6 +2,7 @@ package com.fabricadebugs;
 
 import java.util.Scanner;
 
+@SuppressWarnings("MagicConstant")
 public class Main {
 
     public static void main(String[] args) {

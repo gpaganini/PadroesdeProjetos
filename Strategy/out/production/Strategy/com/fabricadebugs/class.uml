@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="220.0" y="0.0">Context</node>
+    <node x="185.0" y="154.0">ConcreteStrategyA</node>
+    <node x="224.0" y="153.0">ConcreteStrategyC</node>
+    <node x="370.0" y="154.0">ConcreteStrategyB</node>
+    <node x="216.5" y="77.0">Strategy</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ConcreteStrategyC" target="Strategy">
+      <point x="0.0" y="-13.5" />
+      <point x="82.5" y="129.0" />
+      <point x="233.5" y="129.0" />
+      <point x="-34.0" y="13.5" />
+    </edge>
+    <edge source="ConcreteStrategyB" target="Strategy">
+      <point x="0.0" y="-13.5" />
+      <point x="452.5" y="129.0" />
+      <point x="301.5" y="129.0" />
+      <point x="34.0" y="13.5" />
+    </edge>
+    <edge source="ConcreteStrategyA" target="Strategy">
+      <point x="0.0" y="-13.5" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="Strategy" target="Context">
+      <point x="0.0" y="-13.5" />
+      <point x="0.0" y="13.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="426.0" y="80.5" />
+  <SelectedNodes>
+    <node>ConcreteStrategyC</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

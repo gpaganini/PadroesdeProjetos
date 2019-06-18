@@ -2,6 +2,7 @@
 <Diagram>
   <ID>JAVA</ID>
   <OriginalElement />
+<<<<<<< Updated upstream
   <nodes>
     <node x="220.0" y="0.0">Context</node>
     <node x="185.0" y="154.0">ConcreteStrategyA</node>
@@ -36,6 +37,13 @@
   <SelectedNodes>
     <node>ConcreteStrategyC</node>
   </SelectedNodes>
+=======
+  <nodes />
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="578.5" y="351.5" />
+  <SelectedNodes />
+>>>>>>> Stashed changes
   <Categories />
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>

@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="3d42983b-8bb1-4fe5-a747-813fec4301f5" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="61a374c1-075a-477f-bac0-fcbb96cc8492" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/ConcreteStrategyA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConcreteStrategyB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConcreteStrategyC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Context.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fabricadebugs/class.uml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fabricadebugs/class.uml" afterDir="false" />
+    </list>
+>>>>>>> Stashed changes
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,20 +26,77 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< Updated upstream
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/fabricadebugs/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
               <caret line="27" selection-start-line="27" selection-end-line="27" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/com.fabricadebugs">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>com.fabricadebugs</OriginalElement>
+              <nodes>
+                <node x="0.0" y="149.0">com.fabricadebugs.TipoEntrega</node>
+                <node x="0.0" y="77.0">com.fabricadebugs.AirDeliver</node>
+                <node x="136.0" y="77.0">com.fabricadebugs.ExpressAtlantic</node>
+                <node x="415.0" y="77.0">com.fabricadebugs.Expresso</node>
+                <node x="307.0" y="77.0">com.fabricadebugs.Normal</node>
+                <node x="233.75" y="0.0">com.fabricadebugs.Entrega</node>
+                <node x="168.0" y="149.0">com.fabricadebugs.Main</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="com.fabricadebugs.ExpressAtlantic" target="com.fabricadebugs.Entrega">
+                  <point x="0.0" y="-13.5" />
+                  <point x="211.5" y="57.0" />
+                  <point x="269.375" y="57.0" />
+                  <point x="-11.875" y="13.5" />
+                </edge>
+                <edge source="com.fabricadebugs.AirDeliver" target="com.fabricadebugs.Entrega">
+                  <point x="0.0" y="-13.5" />
+                  <point x="58.0" y="47.0" />
+                  <point x="245.625" y="47.0" />
+                  <point x="-35.625" y="13.5" />
+                </edge>
+                <edge source="com.fabricadebugs.Normal" target="com.fabricadebugs.Entrega">
+                  <point x="0.0" y="-13.5" />
+                  <point x="351.0" y="57.0" />
+                  <point x="293.125" y="57.0" />
+                  <point x="11.875" y="13.5" />
+                </edge>
+                <edge source="com.fabricadebugs.Expresso" target="com.fabricadebugs.Entrega">
+                  <point x="0.0" y="-13.5" />
+                  <point x="466.0" y="47.0" />
+                  <point x="316.875" y="47.0" />
+                  <point x="35.625" y="13.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.2000000000000002" x="-189.8333333333333" y="-4.916666666666657" />
+              <SelectedNodes>
+                <node>com.fabricadebugs.TipoEntrega</node>
+              </SelectedNodes>
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/fabricadebugs/Entrega.java">
+<<<<<<< Updated upstream
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="6" selection-start-line="6" selection-end-line="6" />
+=======
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -36,17 +104,42 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/fabricadebugs/Normal.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="39" lean-forward="true" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+              <folding>
+                <element signature="e#116#117#0" expanded="true" />
+                <element signature="e#162#163#0" expanded="true" />
+              </folding>
+>>>>>>> Stashed changes
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< Updated upstream
+        <entry file="file://$PROJECT_DIR$/src/com/fabricadebugs/Normal.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
               <caret line="4" column="37" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="37" />
               <folding>
                 <element signature="e#116#117#0" expanded="true" />
                 <element signature="e#162#163#0" expanded="true" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/com/fabricadebugs/Expresso.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="38" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="38" />
+              <folding>
+                <element signature="e#118#119#0" expanded="true" />
+                <element signature="e#164#165#0" expanded="true" />
+>>>>>>> Stashed changes
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< Updated upstream
         <entry file="file://$PROJECT_DIR$/src/com/fabricadebugs/Expresso.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
@@ -54,11 +147,21 @@
               <folding>
                 <element signature="e#118#119#0" expanded="true" />
                 <element signature="e#164#165#0" expanded="true" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/com/fabricadebugs/ExpressAtlantic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="40" />
+              <folding>
+                <element signature="e#125#126#0" expanded="true" />
+                <element signature="e#173#174#0" expanded="true" />
+>>>>>>> Stashed changes
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< Updated upstream
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/fabricadebugs/ExpressAtlantic.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -67,21 +170,49 @@
               <folding>
                 <element signature="e#125#126#0" expanded="true" />
                 <element signature="e#173#174#0" expanded="true" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/fabricadebugs/AirDeliver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#120#121#0" expanded="true" />
+                <element signature="e#166#167#0" expanded="true" />
+>>>>>>> Stashed changes
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< Updated upstream
         <entry file="file://$PROJECT_DIR$/src/com/fabricadebugs/AirDeliver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/com/fabricadebugs/TipoEntrega.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+              <folding>
+                <element signature="e#119#120#0" expanded="true" />
+                <element signature="e#162#163#0" expanded="true" />
+                <element signature="e#238#239#0" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#408#409#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+                <element signature="e#543#544#0" expanded="true" />
+              </folding>
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< Updated upstream
         <entry file="file://$PROJECT_DIR$/src/com/fabricadebugs/TipoEntrega.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
@@ -96,6 +227,12 @@
                 <element signature="e#491#492#0" expanded="true" />
                 <element signature="e#543#544#0" expanded="true" />
               </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/src/com/fabricadebugs/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
@@ -123,7 +260,36 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
+<<<<<<< Updated upstream
     <panes />
+=======
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Strategy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Strategy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Strategy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Strategy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Strategy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Strategy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="fabricadebugs" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+>>>>>>> Stashed changes
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -176,6 +342,7 @@
       <created>1560278913487</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< Updated upstream
       <updated>1560278913487</updated>
     </task>
     <servers />
@@ -217,6 +384,27 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24962178" />
+=======
+      <updated>1560099904332</updated>
+      <workItem from="1560099907994" duration="3373000" />
+      <workItem from="1560117966961" duration="1410000" />
+      <workItem from="1560223586006" duration="709000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5521000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.19730078" />
+>>>>>>> Stashed changes
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -231,6 +419,7 @@
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
+<<<<<<< Updated upstream
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Maven" order="4" />
@@ -238,6 +427,50 @@
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
     </layout-to-restore>
+=======
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.19730078" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.32891247" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+>>>>>>> Stashed changes
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/fabricadebugs/Main.java">
@@ -247,6 +480,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/src/com/fabricadebugs/Entrega.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -295,9 +529,195 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fabricadebugs/TipoEntrega.java">
+=======
+    <entry file="file://$PROJECT_DIR$/src/com/fabricadebugs/strategy-class.uml" />
+    <entry file="file://$PROJECT_DIR$/src/com/fabricadebugs/classe.uml" />
+    <entry file="uml://JAVA/com.fabricadebugs.ServicoDeEntrega.Entregas">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.fabricadebugs.ServicoDeEntrega.Entregas</OriginalElement>
+          <nodes>
+            <node x="" y="">com.fabricadebugs.ServicoDeEntrega.Entregas.AirDeliver</node>
+            <node x="" y="">com.fabricadebugs.ServicoDeEntrega.Entregas.ExpressAtlantic</node>
+            <node x="" y="">com.fabricadebugs.ServicoDeEntrega.Entregas.Expresso</node>
+            <node x="" y="">com.fabricadebugs.ServicoDeEntrega.Entregas.Normal</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="118.0" y="86.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.fabricadebugs.ServicoDeEntrega">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.fabricadebugs.ServicoDeEntrega</OriginalElement>
+          <nodes>
+            <node x="" y="">com.fabricadebugs.ServicoDeEntrega.TipoEntrega</node>
+            <node x="" y="">com.fabricadebugs.ServicoDeEntrega.Entrega</node>
+            <node x="" y="">com.fabricadebugs.ServicoDeEntrega.Entregas</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="71.0" y="88.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Strategy.java">
+>>>>>>> Stashed changes
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fabricadebugs/Normal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="39" lean-forward="true" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+          <folding>
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fabricadebugs/Expresso.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+        <state relative-caret-position="68">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="38" />
+          <folding>
+            <element signature="e#118#119#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fabricadebugs/ExpressAtlantic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="40" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fabricadebugs/AirDeliver.java">
+      <provider selected="true" editor-type-id="text-editor">
+=======
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fabricadebugs/class.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="87.5" y="-30.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.fabricadebugs">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.fabricadebugs</OriginalElement>
+          <nodes>
+            <node x="0.0" y="149.0">com.fabricadebugs.TipoEntrega</node>
+            <node x="0.0" y="77.0">com.fabricadebugs.AirDeliver</node>
+            <node x="136.0" y="77.0">com.fabricadebugs.ExpressAtlantic</node>
+            <node x="415.0" y="77.0">com.fabricadebugs.Expresso</node>
+            <node x="307.0" y="77.0">com.fabricadebugs.Normal</node>
+            <node x="233.75" y="0.0">com.fabricadebugs.Entrega</node>
+            <node x="168.0" y="149.0">com.fabricadebugs.Main</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.fabricadebugs.ExpressAtlantic" target="com.fabricadebugs.Entrega">
+              <point x="0.0" y="-13.5" />
+              <point x="211.5" y="57.0" />
+              <point x="269.375" y="57.0" />
+              <point x="-11.875" y="13.5" />
+            </edge>
+            <edge source="com.fabricadebugs.AirDeliver" target="com.fabricadebugs.Entrega">
+              <point x="0.0" y="-13.5" />
+              <point x="58.0" y="47.0" />
+              <point x="245.625" y="47.0" />
+              <point x="-35.625" y="13.5" />
+            </edge>
+            <edge source="com.fabricadebugs.Normal" target="com.fabricadebugs.Entrega">
+              <point x="0.0" y="-13.5" />
+              <point x="351.0" y="57.0" />
+              <point x="293.125" y="57.0" />
+              <point x="11.875" y="13.5" />
+            </edge>
+            <edge source="com.fabricadebugs.Expresso" target="com.fabricadebugs.Entrega">
+              <point x="0.0" y="-13.5" />
+              <point x="466.0" y="47.0" />
+              <point x="316.875" y="47.0" />
+              <point x="35.625" y="13.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.2000000000000002" x="-189.8333333333333" y="-4.916666666666657" />
+          <SelectedNodes>
+            <node>com.fabricadebugs.TipoEntrega</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fabricadebugs/Entrega.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fabricadebugs/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fabricadebugs/TipoEntrega.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
           <folding>
             <element signature="e#119#120#0" expanded="true" />
             <element signature="e#162#163#0" expanded="true" />
@@ -346,6 +766,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fabricadebugs/AirDeliver.java">
       <provider selected="true" editor-type-id="text-editor">
+>>>>>>> Stashed changes
         <state relative-caret-position="119">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
